@@ -9,7 +9,7 @@ import 'socal.dart';
 import 'web_menu.dart';
 
 class Header extends StatelessWidget {
-  final MenuController _controller = Get.put(MenuController());
+  final MenuController1 _controller = Get.put(MenuController1());
 
   @override
   Widget build(BuildContext context) {

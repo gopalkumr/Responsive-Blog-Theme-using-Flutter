@@ -6,7 +6,7 @@ import 'package:news/controllers/MenuController.dart';
 import '../../../constants.dart';
 
 class SideMenu extends StatelessWidget {
-  final MenuController _controller = Get.put(MenuController());
+  final MenuController1 _controller = Get.put(MenuController1());
 
   @override
   Widget build(BuildContext context) {

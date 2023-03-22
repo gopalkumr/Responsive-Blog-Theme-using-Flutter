@@ -6,11 +6,11 @@ class Blog {
 
 List<Blog> blogPosts = [
   Blog(
-    date: "23 September 2020",
+    date: "22 March 2023",
     image: "assets/images/0.png",
-    title: "How Ireland’s biggest bank executed a comp lete security redesign",
+    title: "Why Engineering In India is OverHyped",
     description:
-        "Mobile banking has seen a huge increase since Coronavirus. In fact, CX platform Lightico found that 63 percent of people surveyed said they were more willing to try a new digital banking app than before the pandemic.So while you may be more inclined to bank remotely these days, cybercrime—especially targeting banks—is on the rise.",
+        "In the recent Year, The Number of Engineering Graduated student has incresly Massively. .",
   ),
   Blog(
     date: "21 August  2020",
