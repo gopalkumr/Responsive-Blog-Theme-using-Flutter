@@ -30,6 +30,7 @@ dependencies:
 
   flutter_svg: ^1.0.3
   get: ^4.6.1
+  getwidget: ^3.0.1
 
 dev_dependencies:
   flutter_test:

@@ -7,6 +7,7 @@ import 'package:news/responsive.dart';
 import '../../../constants.dart';
 import 'socal.dart';
 import 'web_menu.dart';
+import 'dart:js' as js;
 
 class Header extends StatelessWidget {
   final MenuController1 _controller = Get.put(MenuController1());
@@ -57,7 +58,7 @@ class Header extends StatelessWidget {
                     padding:
                         const EdgeInsets.symmetric(vertical: kDefaultPadding),
                     child: Text(
-                      "Stay updated with the newest design and development stories, case studies, \nand insights shared by DesignDK Team.",
+                      "Stay updated with the newest design and development stories, case studies, \nand insights shared by PG Team.",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         color: Colors.white,
@@ -68,7 +69,12 @@ class Header extends StatelessWidget {
                   ),
                   FittedBox(
                     child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        js.context.callMethod(
+                            'open', ['https://www.projectwithgopal.me/']);
+                      },
+                      // onPressed: () => launch('https://docs.flutter.io/flutter/services/UrlLauncher-class.html'),
+
                       child: Row(
                         children: [
                           Text(

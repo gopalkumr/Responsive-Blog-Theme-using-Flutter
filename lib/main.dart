@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:news/screens/main/main_screen.dart';
+import 'package:getwidget/getwidget.dart';
 
 import 'constants.dart';
 

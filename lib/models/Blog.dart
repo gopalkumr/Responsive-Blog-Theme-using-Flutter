@@ -26,4 +26,11 @@ List<Blog> blogPosts = [
     description:
         "Mobile banking has seen a huge increase since Coronavirus. In fact, CX platform Lightico found that 63 percent of people surveyed said they were more willing to try a new digital banking app than before the pandemic.So while you may be more inclined to bank remotely these days, cybercrime—especially targeting banks—is on the rise.",
   ),
+  Blog(
+    date: "23 September 2020",
+    image: "assets/images/recent_1.png",
+    title: "Why to choose flutter",
+    description:
+        "Flutter is one of the leading framework used to devlope mobile application, However google is strongly upgrading flutter to enter in the Web devlopment compition, However flutter current release does not able to compete with framework Like Next.js vue or React",
+  ),
 ];
